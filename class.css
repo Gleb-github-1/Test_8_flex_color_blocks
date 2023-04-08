@@ -1,0 +1,31 @@
+.mainbox {
+    display: flex ;
+    flex-flow: row nowrap;
+    justify-content: space-evenly ;
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+}
+.column {
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    flex: 0 0 33%;
+}
+.column-row {
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 0 0 auto;
+    border-radius: 1vmin;
+    border: 0.5vmin solid white;
+}
+.columm-row-column {
+    display: flex;
+    flex-flow: column nowrap;
+    flex: 0 0 auto;
+    border-radius: 1vmin;
+    border: 0.5vmin solid white;
+}
+* {
+    box-sizing: border-box;
+  }
